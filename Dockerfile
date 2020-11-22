@@ -2,6 +2,7 @@ FROM jgwill/sci-dev
 
 RUN pip install --upgrade pip
 RUN pip install tensorflow
+RUN pip3 install IPython
 RUN apt install -y python3-dev python3-pip python3-venv
 RUN pip install tensorflow_hub
 RUN echo "export TFHUB_CACHE_DIR=$HOME/.cache/tfhub_modules" >> ~/.bashrc
