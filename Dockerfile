@@ -18,3 +18,4 @@ RUN python init-tf.py style/init.jpg  content/init.jpg  result/init.jpg
 #RUN python init-tf.py style/sample-style.jpg  content/sample-content.jpg  result/init.jpg
 
 
+RUN pip install tensorflow_probability
